@@ -1,0 +1,16 @@
+.contact{
+    width: 100%;
+    height: 100vh;
+    background: conic-gradient(#d5ccbf, #f2ede6, #706758, #827561, #d5ccbf);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-box{
+    width: 80%;
+    height: 80%;
+    background-color: #f2ede6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,149 @@
+.projects{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    padding: 5vh 3vw;
+}
+.project-one{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5vh 2vh;
+}
+.left-side{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    /* padding: 2vh 2vw; */
+}
+.right-side{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+.used{
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5vh;
+    flex-wrap: wrap;
+}
+.used div{
+    width: 18%;
+    height: 7vh;
+    display: flex;
+    font-size: 2vh;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.project-two{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5vh 2vh;
+}
+.project-three{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5vh 2vh;
+}
+
+.right-side img{
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.left-side img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 390px) {
+    .projects{
+        flex-direction: column;
+    }
+    .project-one{
+        height: 80vh;
+        flex-direction:column-reverse;
+    }
+    .left-side{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        /* padding: 2vh 2vw; */
+    }
+    .right-side{
+        width: 90%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 10vh;
+    }
+    .used{
+        width: 80vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5vh;
+        flex-wrap: wrap;
+    }
+    .used div{
+        width: 30%;
+        height: 7vh;
+        display: flex;
+        font-size: 2vh;
+        border-radius: 50px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid gray;
+        cursor: pointer;
+    }
+    .project-two{
+        height: 80vh;
+        flex-direction:column;
+    }
+    .project-three{
+        height: 80vh;
+        flex-direction:column-reverse;
+    }
+    
+    .right-side img{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .left-side img{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+}
